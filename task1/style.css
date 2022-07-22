@@ -1,0 +1,83 @@
+*body{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #229ee6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin:5px;      
+}
+.nav1 a{
+    text-decoration: none; 
+    color: #229ee6;
+    padding:6px 6px;
+    background: white;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    color: black;
+    background:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 0px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    padding:5px 20px;
+
+}
+header
+{
+    width:100%;
+    height:100vh;
+    background:url('https://www.campusoption.com/images/colleges/gallery/04_01_17_120829_College.jpg');
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color: #fffdfd;
+    position:absolute ;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.h-text h1{
+    font-size: 3em;
+font-family: 'Dancing Script',cursive;
+animation: blink 2s linear infinite;
+color: blanchedalmond;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+.h-text span{
+    color: rgb(0, 102, 255);
+font-family: 'Dancing Script',cursive;
+
+}
+
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+}
+.h-text a{
+    text-decoration: none;
+    color:white;
+    background: #229ee6;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
